@@ -11,6 +11,7 @@ if (isset($_SESSION['submitted']) && $_SESSION['submitted'] === true) {
 // ✅ Handle form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $con = mysqli_connect("localhost", "root", "", "form");
+    
 
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
@@ -43,8 +44,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>UOL CS Trip Form</title>
-    <link rel="stylesheet" href="style.css">
+    <title>UOL Trip Form</title>
+    <link rel="stylesheet" href="index.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
