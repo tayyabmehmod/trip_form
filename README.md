@@ -1,4 +1,4 @@
-# 🎓 UOL CS Trip Registration Form
+# 🎓 UOL Trip Registration Form
 
 This project is a web-based **trip registration form** built using **PHP**, **MySQL**, **JavaScript**, and **SweetAlert2**. It allows university students to submit their personal and academic details for confirming participation in a university-organized trip.
 
